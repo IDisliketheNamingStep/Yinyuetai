@@ -1,5 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+li {
+  list-style: none;
+}
+.clearfix:before, .clearfix:after {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
 .App {
   text-align: center;
+  background-color: #F3F5F7;
 }
 
 .App-logo {
@@ -20,3 +36,4 @@
 .App-link {
   color: #09d3ac;
 }
+

@@ -1,0 +1,31 @@
+.themeTitleContainer {
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+    padding: 36px 0 10px 0;
+    border-bottom: 2px solid #F0F0F0;
+}
+.themeTitle {
+    line-height: 20px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.catContainer {
+    float: right;
+}
+.catContainer span {
+    line-height: 14px;
+    color: #666666;
+    margin: 0 19px;
+    padding-bottom: 10px;
+}
+.catContainer span:last-child {
+    border: none;
+    margin-right: 0;
+}
+
+span.catItemActive {
+    color: #52E2C0;
+    border-bottom: 2px solid #52E2C0;
+}

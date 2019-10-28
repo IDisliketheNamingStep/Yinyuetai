@@ -1,0 +1,94 @@
+.wellPickedMvOneContainer {
+    margin-left: 30px;
+    width: 220px;
+    height: 311px;
+    text-align: left;
+    position: relative;
+}
+.wellPickedMvOneContainer img {
+    display: block;
+    width: 100%;
+    height: 220px;
+}
+.wellPickedMvOnetitle {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    margin: 11px 12px 8px;
+}
+.wellPickedMvOnesubTitle {
+    font-size: 12px;
+    line-height: 16px;
+    color: #a4a4a4;
+    margin: 0 12px;
+}
+.wellPickedHoverBox {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 470px;
+    height: 270px;
+    display: none;
+    background: #F3F5F7;
+    border: 1px solid #E5E5E5;
+}
+.wellPickedMvOneContainer:hover .wellPickedHoverBox {
+    display: block;
+}
+.wellPickedHoverBox img {
+    display: block;
+    float: left;
+    width: 270px;
+    height: 270px;
+}
+.descBox {
+    width: 198px;
+    height: 100%;
+    float: right;
+}
+.descContent {
+    width: 155px;
+    height: 100%;
+    margin: 0 auto;
+}
+.description, .hoverTitle {
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
+.hoverTitle {
+    padding: 10px 0;
+    margin: 0;
+}
+.description {
+    height: 85px;
+    overflow: hidden;
+}
+img.avatar {
+    float: left;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.userInfoBox {
+    width: 115px;
+    float: left;
+}
+.totalViews {
+    margin-top: 16px;
+    padding-left: 15px;
+    background: url("../../../../assets/images/playcount.png") 0px 0px no-repeat;
+}
+.tags {
+    padding: 0;
+    margin: 5px 0 0;
+    font-size: 15px;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333333;
+}

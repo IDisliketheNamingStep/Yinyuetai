@@ -1,0 +1,25 @@
+.vRANKTitleContainer {
+    padding: 36px 0 10px 0;
+    border-bottom: 2px solid #F0F0F0;
+}
+.vRANKTitle {
+    line-height: 20px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.vRANKcatContainer {
+    margin-left: 15px;
+    float: left;
+}
+.vRANKcatContainer span {
+    font-size: 14px;
+    line-height: 14px;
+    color: #666666;
+    border-left: 1px solid #E5E5E5;
+    padding: 0 15px;
+}
+.vRANKcatContainer span:hover{
+    color: #52E2C0;
+}

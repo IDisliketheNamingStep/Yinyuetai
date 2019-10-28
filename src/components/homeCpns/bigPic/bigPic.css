@@ -1,0 +1,32 @@
+.bigPicContainer {
+    width: 1600px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+}
+.bigPicTitle {
+    z-index: 10;
+    position: absolute;
+    width: 254px;
+    height: 400px;
+    top: 30px;
+    right: 65px;
+    border: 1px solid rgba(255,255,255,0.6);
+    background-color: rgba(0,0,0,0.6);
+}
+.titleContent{
+    margin-top: 10px;
+}
+.titleContent p {
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+    margin: 4px 12px;
+    line-height: 34px;
+}
+.titleContent .currentPageTitle {
+    color: #52E2C0;
+}
+

@@ -1,0 +1,139 @@
+/*顶部黑框*/
+.container {
+    height: 50px;
+    background-color: black;
+}
+/*顶部内容区*/
+.content {
+    margin: 0 auto;
+    width: 1560px;
+    padding: 0 20px;
+}
+/*音悦台logo*/
+.logoImg {
+    float: left;
+    width: 242px;
+    height: 49px;
+    display: block;
+}
+/*路由名字*/
+.topBarLeft span {
+    float: left;
+    line-height: 50px;
+    font-size: 14px;
+    color: #cccccc;
+    padding: 0 12px;
+}
+.topBarLeft .activeRoute {
+    color: #52E2C0;
+}
+/*商城动图*/
+.topBarLeft span:last-child {
+    background-image: url("../../../assets/images/shop2.gif");
+}
+
+.topBarRight {
+    float: right;
+    display: flex;
+}
+.login, .register {
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #cccccc;
+    margin-top: 16px;
+}
+.login:hover, .register:hover {
+    color: #52E2C0;
+}
+.login {
+    padding-right: 15px;
+    margin-right: 11px;
+    border-right: 1px solid #666666;
+}
+.VIP {
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 21px;
+    height: 16px;
+    background: url("../../../assets/images/new_topbar.png") -173px 0px no-repeat;
+}
+.VIP:hover {
+    background: url("../../../assets/images/new_topbar.png") -147px 0px no-repeat;
+}
+.topBarRight .arrow {
+    width: 10px;
+    height: 6px;
+    margin: 21px 0 0 6px;
+    background: url("../../../assets/images/topbar_sprite4.png") -262px -17px no-repeat;
+}
+.topBarRight .appBox:hover .arrow, .topBarRight .uploadMenus:hover .arrow {
+    background: url("../../../assets/images/topbar_sprite4.png") -272px -17px no-repeat;
+}
+.topBarRight .appBox:hover, .topBarRight .uploadMenus:hover {
+    background-color: #222222;
+}
+.appBox {
+    height: 50px;
+    padding: 0 10px;
+    margin-right: 15px;
+    display: flex;
+    position: relative;
+}
+.appBox .main{
+    margin-top: 15px;
+    width: 21px;
+    height: 16px;
+    background: url("../../../assets/images/new_topbar.png") -25px -1px no-repeat;
+}
+.appBox .main:hover{
+    background: url("../../../assets/images/new_topbar.png") -1px -1px no-repeat;
+}
+.dropdownMenu {
+    background-color: #222222;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: none;
+}
+.dropdownMenu li {
+    line-height: 34px;
+    padding: 0 16px;
+    color: #cccccc;
+    white-space: nowrap;
+}
+.dropdownMenu li:hover {
+    color: white;
+    background-color: #444444;
+}
+.appBox:hover .dropdownMenu, .uploadMenus:hover .dropdownMenu {
+    display: block;
+}
+.uploadMenus {
+    height: 50px;
+    padding: 0 10px;
+    margin-right: 15px;
+    display: flex;
+    position: relative;
+}
+.uploadMenus .main {
+    margin-top: 15px;
+    width: 21px;
+    height: 16px;
+    background: url("../../../assets/images/new_topbar.png") -120px 0px no-repeat;
+}
+.uploadMenus .main:hover {
+    background: url("../../../assets/images/new_topbar.png") -96px 0px no-repeat;
+}
+.subscription {
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 23px;
+    height: 30px;
+    background: url("../../../assets/images/new_topbar.png") -72px 0px no-repeat;
+}
+.subscription:hover {
+    background: url("../../../assets/images/new_topbar.png") -49px 0px no-repeat;
+}
+
+

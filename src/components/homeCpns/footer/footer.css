@@ -1,0 +1,28 @@
+* {
+    color: #333333;
+    /*line-height: 50px;*/
+}
+.footerContainer {
+    background-color: white;
+    margin: 20px 0 30px;
+    color: #333333;
+}
+.footerContainer p {
+    /*background-color: white;*/
+    /*margin: 20px 0 30px;*/
+    margin: 10px 0;
+    color: #999999;
+    font-size: 12px;
+    line-height: 14px;
+}
+.firstLine {
+    margin: 15px 0;
+    width: 100%;
+    text-align: center;
+}
+.firstLine li{
+    font-size: 14px;
+    line-height: 17px;
+    display: inline-block;
+    padding: 0 10px;
+}
